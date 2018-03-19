@@ -1,5 +1,20 @@
 {% extends "layout.html" %}
 {% block body %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "https://rdany.org/",
+      "name": "Questions"
+    }
+  }
+  }]
+}
+</script>
 <main><article><h2>{{ question }}</h2>{{ answer }}</article></main>
 <nav>
 <ul>

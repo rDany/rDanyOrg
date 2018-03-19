@@ -74,5 +74,16 @@ def sitemap():
         sitemap_text = "{}\nhttps://rdany.org/ask?q={}".format(sitemap_text, urllib.parse.quote_plus(answer["q"]))
     return sitemap_text
 
+
+@app.route('/robots.txt')
+def robots():
+    return "User-agent: *\nDisallow:"
+
+
+@app.route('/amp')
+def amp():
+    return render_template('amp.html')
+
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
