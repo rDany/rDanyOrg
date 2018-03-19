@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block body %}
+<main><h2>rDany</h2></main>
+<nav>
+    <a href="/">Main</a>
+    <ul>
+        {% for q in all_questions %}
+        <li><a href="/ask?q={{q|urlencode}}">{{q}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endblock %}
