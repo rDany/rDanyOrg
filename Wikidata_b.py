@@ -263,8 +263,19 @@ modern_political_leaders = [
     "Q7416"
 ]
 
+celestial = [
+    "Q308",  # Mercury
+    "Q313",  # Venus
+    "Q2",  # Earth
+    "Q111",  # Mars
+    "Q319",  # Jupiter
+    "Q193",  # Saturn
+    "Q324",  # Uranus
+    "Q332",  # Neptune
+]
+
 items_id = misc + singers + actors + film_tv + characters + modern_political_leaders
-langs = ["en", "es", "zh-hans", "pt"]
+langs = ["en", "es", "zh-hans", "pt", "ru"]
 answers = []
 datawikiReader = datawiki_reader(base_path)
 for lang in langs:
@@ -285,9 +296,7 @@ for lang in langs:
         for qu in qg.generate(entity, lang):
             if qu is not None:
                 print(qu)
-                for quu in qu:
-                    answers.append(quu)
-                    answers[-1]["lang"] = lang
+                answers.append(qu)
 
 with open("answers.json", 'w') as data_file:
     json.dump(answers,

@@ -348,6 +348,26 @@ class datawiki_reader:
             "P400": "platform",
             "P437": "distribution",
             "P751": "introduced_feature",
+            # Planet
+            "P2067": "mass",
+            "P443": "pronunciation_audio",
+            "P61": "discoverer_or_inventor",
+            "P397": "parent_astronomical_body",
+            "P2248": "argument_of_periapsis",
+            "P1102": "flattening",
+            "P1096": "orbital_eccentricity",
+            "P2045": "orbital_inclination",
+            "P2146": "orbital_period",
+            "P2213": "longitude_of_ascending_node",
+            "P2120": "radius",
+            "P367": "astronomic_symbol_image",
+            "P913": "notation",
+            "P1545": "series_ordinal",
+            "P1036": "dewey_decimal_classification",
+            "P2233": "semi-major_axis",
+            "P487": "unicode_character",
+            "P4341": "synodic_period",
+            "P4501": "albedo"
 
         }
 
