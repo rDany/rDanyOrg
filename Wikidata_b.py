@@ -274,7 +274,7 @@ celestial = [
     "Q332",  # Neptune
 ]
 
-items_id = misc + singers + actors + film_tv + characters + modern_political_leaders
+items_id = misc + singers + actors + film_tv + characters + modern_political_leaders + celestial
 langs = ["en", "es", "zh-hans", "pt", "ru"]
 answers = []
 datawikiReader = datawiki_reader(base_path)

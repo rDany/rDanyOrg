@@ -2485,6 +2485,46 @@
         "q": "When is Margaret Thatcher birthday?"
     },
     {
+        "a": "The planet Mercury has a mass of +330.11.",
+        "lang": "en",
+        "q": "How much weights the planet Mercury?"
+    },
+    {
+        "a": "The planet Venus has a mass of +4867.5.",
+        "lang": "en",
+        "q": "How much weights the planet Venus?"
+    },
+    {
+        "a": "The planet Earth has a mass of +5972.370.",
+        "lang": "en",
+        "q": "How much weights the planet Earth?"
+    },
+    {
+        "a": "The planet Mars has a mass of +641.71.",
+        "lang": "en",
+        "q": "How much weights the planet Mars?"
+    },
+    {
+        "a": "The planet Jupiter has a mass of +1898600, +1898190.",
+        "lang": "en",
+        "q": "How much weights the planet Jupiter?"
+    },
+    {
+        "a": "The planet Saturn has a mass of +568360.",
+        "lang": "en",
+        "q": "How much weights the planet Saturn?"
+    },
+    {
+        "a": "The planet Uranus has a mass of +86810.",
+        "lang": "en",
+        "q": "How much weights the planet Uranus?"
+    },
+    {
+        "a": "The planet Neptune has a mass of +102430.",
+        "lang": "en",
+        "q": "How much weights the planet Neptune?"
+    },
+    {
         "a": "Lionel Messi tiene 30 a\u00f1os.",
         "lang": "es",
         "q": "\u00bfCual es la edad de Lionel Messi?"
@@ -4968,6 +5008,46 @@
         "a": "El cumplea\u00f1os de Margaret Thatcher es el 10/13.",
         "lang": "es",
         "q": "\u00bfCuando es el cumplea\u00f1os de Margaret Thatcher?"
+    },
+    {
+        "a": "El planeta Mercurio tiene una masa de +330.11.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Mercurio?"
+    },
+    {
+        "a": "El planeta Venus tiene una masa de +4867.5.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Venus?"
+    },
+    {
+        "a": "El planeta Tierra tiene una masa de +5972.370.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Tierra?"
+    },
+    {
+        "a": "El planeta Marte tiene una masa de +641.71.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Marte?"
+    },
+    {
+        "a": "El planeta J\u00fapiter tiene una masa de +1898600, +1898190.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta J\u00fapiter?"
+    },
+    {
+        "a": "El planeta Saturno tiene una masa de +568360.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Saturno?"
+    },
+    {
+        "a": "El planeta Urano tiene una masa de +86810.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Urano?"
+    },
+    {
+        "a": "El planeta Neptuno tiene una masa de +102430.",
+        "lang": "es",
+        "q": "\u00bfCual es el peso del planeta Neptuno?"
     },
     {
         "a": "\u5229\u6602\u5185\u5c14\u00b7\u6885\u897f\u662f30\u5c81\u3002",
@@ -7455,6 +7535,46 @@
         "q": "\u4ec0\u4e48\u65f6\u5019\u662f\u739b\u683c\u4e3d\u7279\u00b7\u6492\u5207\u5c14\u751f\u65e5\uff1f"
     },
     {
+        "a": "\u6c34\u661f\u7684\u8cea\u91cf\u662f+330.11\u3002",
+        "lang": "zh-hans",
+        "q": "\u6c34\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u91d1\u661f\u7684\u8cea\u91cf\u662f+4867.5\u3002",
+        "lang": "zh-hans",
+        "q": "\u91d1\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u5730\u7403\u7684\u8cea\u91cf\u662f+5972.370\u3002",
+        "lang": "zh-hans",
+        "q": "\u5730\u7403\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u706b\u661f\u7684\u8cea\u91cf\u662f+641.71\u3002",
+        "lang": "zh-hans",
+        "q": "\u706b\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u6728\u661f\u7684\u8cea\u91cf\u662f+1898600, +1898190\u3002",
+        "lang": "zh-hans",
+        "q": "\u6728\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u571f\u661f\u7684\u8cea\u91cf\u662f+568360\u3002",
+        "lang": "zh-hans",
+        "q": "\u571f\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u5929\u738b\u661f\u7684\u8cea\u91cf\u662f+86810\u3002",
+        "lang": "zh-hans",
+        "q": "\u5929\u738b\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
+        "a": "\u6d77\u738b\u661f\u7684\u8cea\u91cf\u662f+102430\u3002",
+        "lang": "zh-hans",
+        "q": "\u6d77\u738b\u661f\u7684\u91cd\u91cf\u662f\u591a\u5c11\uff1f"
+    },
+    {
         "a": "Lionel Messi \u00e9 30 anos de idade.",
         "lang": "pt",
         "q": "Quantos anos tem Lionel Messi?"
@@ -9940,6 +10060,46 @@
         "q": "Quando \u00e9 anivers\u00e1rio Margaret Thatcher?"
     },
     {
+        "a": "O planeta Merc\u00fario tem uma massa de +330.11.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Merc\u00fario?"
+    },
+    {
+        "a": "O planeta V\u00e9nus tem uma massa de +4867.5.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta V\u00e9nus?"
+    },
+    {
+        "a": "O planeta Terra tem uma massa de +5972.370.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Terra?"
+    },
+    {
+        "a": "O planeta Marte tem uma massa de +641.71.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Marte?"
+    },
+    {
+        "a": "O planeta J\u00fapiter tem uma massa de +1898600, +1898190.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta J\u00fapiter?"
+    },
+    {
+        "a": "O planeta Saturno tem uma massa de +568360.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Saturno?"
+    },
+    {
+        "a": "O planeta Urano tem uma massa de +86810.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Urano?"
+    },
+    {
+        "a": "O planeta Neptuno tem uma massa de +102430.",
+        "lang": "pt",
+        "q": "Quanto pesa o planeta Neptuno?"
+    },
+    {
         "a": "\u041b\u0438\u043e\u043d\u0435\u043b\u044c \u041c\u0435\u0441\u0441\u0438 30 \u043b\u0435\u0442.",
         "lang": "ru",
         "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u043b\u0435\u0442 \u041b\u0438\u043e\u043d\u0435\u043b\u044c \u041c\u0435\u0441\u0441\u0438?"
@@ -12423,5 +12583,45 @@
         "a": "\u0414\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u041c\u0430\u0440\u0433\u0430\u0440\u0435\u0442 \u0422\u044d\u0442\u0447\u0435\u0440 - 10/13.",
         "lang": "ru",
         "q": "\u041a\u043e\u0433\u0434\u0430 \u0431\u0443\u0434\u0435\u0442 \u0434\u0435\u043d\u044c \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u041c\u0430\u0440\u0433\u0430\u0440\u0435\u0442 \u0422\u044d\u0442\u0447\u0435\u0440?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u041c\u0435\u0440\u043a\u0443\u0440\u0438\u0439 \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +330.11.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u041c\u0435\u0440\u043a\u0443\u0440\u0438\u0439?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u0412\u0435\u043d\u0435\u0440\u0430 \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +4867.5.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u0412\u0435\u043d\u0435\u0440\u0430?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u0417\u0435\u043c\u043b\u044f \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +5972.370.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u0417\u0435\u043c\u043b\u044f?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u041c\u0430\u0440\u0441 \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +641.71.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u041c\u0430\u0440\u0441?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u042e\u043f\u0438\u0442\u0435\u0440 \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +1898600, +1898190.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u042e\u043f\u0438\u0442\u0435\u0440?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u0421\u0430\u0442\u0443\u0440\u043d \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +568360.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u0421\u0430\u0442\u0443\u0440\u043d?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u0423\u0440\u0430\u043d \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +86810.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u0423\u0440\u0430\u043d?"
+    },
+    {
+        "a": "\u041f\u043b\u0430\u043d\u0435\u0442\u0430 \u041d\u0435\u043f\u0442\u0443\u043d \u0438\u043c\u0435\u0435\u0442 \u043c\u0430\u0441\u0441\u0443 +102430.",
+        "lang": "ru",
+        "q": "\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0435\u0441\u0438\u0442 \u043f\u043b\u0430\u043d\u0435\u0442\u0430 \u041d\u0435\u043f\u0442\u0443\u043d?"
     }
 ]

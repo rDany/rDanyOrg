@@ -331,16 +331,16 @@ class questions:
                     "a": "The planet {label} has a mass of {mass}."
                 },
                 "zh-hans": {
-                    "q": "{label}",
-                    "a": "{label}{mass}"
+                    "q": "{label}的重量是多少？",
+                    "a": "{label}的質量是{mass}。"
                 },
                 "pt": {
-                    "q": "{label}",
-                    "a": "{label}{mass}"
+                    "q": "Quanto pesa o planeta {label}?",
+                    "a": "O planeta {label} tem uma massa de {mass}."
                 },
-                "pt": {
-                    "q": "{label}",
-                    "a": "{label}{mass}"
+                "ru": {
+                    "q": "Сколько весит планета {label}?",
+                    "a": "Планета {label} имеет массу {mass}."
                 }
             }
         ]
