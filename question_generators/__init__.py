@@ -293,7 +293,7 @@ class questions:
         questions = [
             {
                 "es": {
-                    "q": "¿Cuando es el cumpleaños de {label}?",
+                    "q": "¿Cuándo es el cumpleaños de {label}?",
                     "a": "El cumpleaños de {label} es el {augmented_birthday}."
                 },
                 "en": {
@@ -302,7 +302,7 @@ class questions:
                 },
                 "zh-hans": {
                     "q": "什么时候是{label}生日？",
-                    "a": "{label}生日是{augmented_birthday}。."
+                    "a": "{label}生日是{augmented_birthday}。"
                 },
                 "pt": {
                     "q": "Quando é aniversário {label}?",
@@ -311,6 +311,36 @@ class questions:
                 "ru": {
                     "q": "Когда будет день рождения {label}?",
                     "a": "День рождения {label} - {augmented_birthday}."
+                }
+            }
+        ]
+        q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
+        return q
+
+    def human_is_alive(self, entity, lang="en"):
+        instance_of = self.instances_of["human"]
+        properties = ["augmented_is_alive"]
+        questions = [
+            {
+                "es": {
+                    "q": "¿Vive {label}?",
+                    "a": "{label} está {augmented_is_alive}."
+                },
+                "en": {
+                    "q": "Is {label} alive?",
+                    "a": "{label} is {augmented_is_alive}."
+                },
+                "zh-hans": {
+                    "q": "{label}活著嗎？",
+                    "a": "{label} {augmented_is_alive}。"
+                },
+                "pt": {
+                    "q": "O {label} vivo?",
+                    "a": "{label} {augmented_is_alive}."
+                },
+                "ru": {
+                    "q": "Живет ли {label}?",
+                    "a": "{label} - {augmented_is_alive}."
                 }
             }
         ]
@@ -359,7 +389,8 @@ class questions:
             self.film_box_office(entity, lang),
             self.film_screewriter(entity, lang),
             self.human_age(entity, lang),
-            self.human_birthday(entity, lang)
+            self.human_birthday(entity, lang),
+            self.human_is_alive(entity, lang)
         ]
         return questions
 
@@ -378,6 +409,8 @@ class questions:
             if type(director_) == str:  # TODO
                 director = "{}{}, ".format(director, director_)
             elif type(director_) == int:  # TODO
+                director = "{}{}, ".format(director, director_)
+            elif type(director_) == bool:  # TODO
                 director = "{}{}, ".format(director, director_)
             else:
                 if "label" in director_.properties:
@@ -405,6 +438,8 @@ class questions:
             if type(director_properties) == str:  # TODO
                 any_dir = True
             elif type(director_properties) == int:  # TODO
+                any_dir = True
+            elif type(director_properties) == bool:  # TODO
                 any_dir = True
             else:
                 for dp in director_properties.properties:

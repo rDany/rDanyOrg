@@ -372,7 +372,7 @@ class datawiki_reader:
         }
 
     def calculate_age(self, born):
-        if type(born) == list:
+        if type(born) in [list, str]:
             return None
         today = datetime.date.today()
         return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
@@ -382,15 +382,21 @@ class datawiki_reader:
         if "date_of_birth" in python_entity.properties:
             for date_ in python_entity.properties["date_of_birth"]:
                 age = self.calculate_age(date_)
-                birthday = "{}/{}".format(date_.month, date_.day)
-            python_entity.set_property("augmented_age", age)
-            python_entity.set_property("augmented_birthday", birthday)
+                if age is not None:
+                    birthday = "{}/{}".format(date_.month, date_.day)
+            if age is not None:
+                python_entity.set_property("augmented_age", age)
+                python_entity.set_property("augmented_birthday", birthday)
         # TODO
         # if "instance_of" in python_entity.properties and python_entity.properties["instance_of"].properties["id"] == "Q5":  # Human
         if "spouse" in python_entity.properties:
             python_entity.set_property("augmented_married", True)
         else:
             python_entity.set_property("augmented_married", None)
+        if "date_of_death" in python_entity.properties:
+            python_entity.set_property("augmented_is_alive", False)
+        else:
+            python_entity.set_property("augmented_is_alive", True)
         return python_entity
 
     def get_entity_json(self, entity_id):
