@@ -347,6 +347,66 @@ class questions:
         q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
         return q
 
+    def human_eye_color(self, entity, lang="en"):
+        instance_of = self.instances_of["human"]
+        properties = ["eye_color"]
+        questions = [
+            {
+                "es": {
+                    "q": "¿De que color son los ojos de {label}?",
+                    "a": "{label} está {eye_color}."
+                },
+                "en": {
+                    "q": "What color are {label}'s eyes?",
+                    "a": "{label}'s eyes are {eye_color}."
+                },
+                "zh-hans": {
+                    "q": "{label}的眼睛是什麼顏色的？",
+                    "a": "{label}的眼睛是{eye_color}的。"
+                },
+                "pt": {
+                    "q": "Que cor são os olhos de {label}?",
+                    "a": "Os olhos de {label} são {eye_color}."
+                },
+                "ru": {
+                    "q": "Какого цвета глаза {label}?",
+                    "a": "Глаза {label} {eye_color}."
+                }
+            }
+        ]
+        q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
+        return q
+
+    def human_hair_color(self, entity, lang="en"):
+        instance_of = self.instances_of["human"]
+        properties = ["hair_color"]
+        questions = [
+            {
+                "es": {
+                    "q": "¿De que color es el cabello de {label}?",
+                    "a": "{label} está {hair_color}."
+                },
+                "en": {
+                    "q": "What color are {label}'s hair?",
+                    "a": "{label}'s hair is {hair_color}."
+                },
+                "zh-hans": {
+                    "q": "{label}的頭髮是什麼顏色的？",
+                    "a": "{label}的頭髮是{hair_color}。"
+                },
+                "pt": {
+                    "q": "Que cor é o cabelo de {label}?",
+                    "a": "O cabelo de {label} é {hair_color}."
+                },
+                "ru": {
+                    "q": "Какого цвета волосы {label}?",
+                    "a": "Волосы {label} - {hair_color}."
+                }
+            }
+        ]
+        q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
+        return q
+
     def planet_mass(self, entity, lang="en"):
         instance_of = self.instances_of["planet"]
         properties = ["mass"]
@@ -390,7 +450,9 @@ class questions:
             self.film_screewriter(entity, lang),
             self.human_age(entity, lang),
             self.human_birthday(entity, lang),
-            self.human_is_alive(entity, lang)
+            self.human_is_alive(entity, lang),
+            self.human_eye_color(entity, lang),
+            self.human_hair_color(entity, lang),
         ]
         return questions
 

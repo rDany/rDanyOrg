@@ -188,6 +188,8 @@ class datawiki_reader:
             "P551": "residence",
             "P103": "native_language",
             "P2032": "work_period_end",
+            "P1340": "eye_color",
+            "P1884": "hair_color",
 
             "P1389": "product_certification",
             "P279": "subclass_of",
