@@ -71,6 +71,18 @@ class questions:
                 "ru": {
                     "q": "Кто создал фильм «{label}»?",
                     "a": "Фильм «{label}» был снят {producer}."
+                },
+                "ko": {
+                    "q": "누가 {label} 영화를 제작 했습니까?",
+                    "a": "영화 {label}는 {producer} 제작했습니다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} का निर्माण किसने किया?",
+                    "a": "फिल्म {label} {producer} द्वारा निर्मित किया गया था"
+                },
+                "ja": {
+                    "q": "誰が映画「{label}」を制作しましたか？",
+                    "a": "映画{label}は{producer}によって制作されました。"
                 }
             }
         ]
@@ -101,6 +113,18 @@ class questions:
                 "ru": {
                     "q": "Кто руководил фильмом «{label}»?",
                     "a": "Фильм «{label}» был режиссером {director}."
+                },
+                "ko": {
+                    "q": "누가 {label} 영화를 감독 했습니까?",  # 터미네이터  # 존이
+                    "a": "영화 '{label}'는 {director} 감독했다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} का निर्देशन किसने किया?",  # टर्मिनेटर  # जॉन
+                    "a": "फिल्म {label} का निर्देश {director} द्वारा किया गया था।"
+                },
+                "ja": {
+                    "q": "誰が映画{label}を監督した？",  # ターミネーター  # ジョン
+                    "a": "映画「{label}」は{director}によって監督されました。"
                 }
             }
         ]
@@ -131,6 +155,18 @@ class questions:
                 "ru": {
                     "q": "Кто является режиссером фотографии в фильме «{label}»?",
                     "a": "Режиссер фотографии «{label}» - {director_of_photography}."
+                },
+                "ko": {
+                    "q": "영화 {label} 촬영 감독은 누구입니까?",  # 터미네이터  # 존이
+                    "a": "{label}의 사진 감독은 {director_of_photography}니다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} में फोटोग्राफी के निर्देशक कौन हैं?",  # टर्मिनेटर  # जॉन
+                    "a": "{label} में फोटोग्राफी के निदेशक {director_of_photography} हैं"
+                },
+                "ja": {
+                    "q": "映画{label}の写真監督は誰ですか？",  # ターミネーター  # ジョン
+                    "a": "{label}の写真監督は{director_of_photography}です。"
                 }
             }
         ]
@@ -161,6 +197,18 @@ class questions:
                 "ru": {
                     "q": "Кто музыкальный композитор в фильме «{label}»?",
                     "a": "Музыкальный композитор в {label} - {music_composer}."
+                },
+                "ko": {
+                    "q": "영화 {label}의 음악 작곡가는 누구입니까?",  # 터미네이터  # 존이
+                    "a": "{label}의 음악 작곡가는 {music_composer}니다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} में संगीत संगीतकार कौन है?",  # टर्मिनेटर  # जॉन
+                    "a": "{label} में संगीत संगीतकार {music_composer} है"
+                },
+                "ja": {
+                    "q": "映画{label}の作曲家は誰ですか？",  # ターミネーター  # ジョン
+                    "a": "{label}の作曲家は{music_composer}です。"
                 }
             }
         ]
@@ -191,6 +239,18 @@ class questions:
                 "ru": {
                     "q": "Сколько стоил фильм «{label}»?",
                     "a": "Стоимость фильма «{label}» составляла {cost_money} долларов."
+                },
+                "ko": {
+                    "q": "영화 {label}는 얼마였습니까?",  # 터미네이터  # 존이
+                    "a": "영화 {label} 비용은 ${cost_money}입니다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} ने कितना खर्च किया?",  # टर्मिनेटर  # जॉन
+                    "a": "फिल्म {label} की लागत ${cost_money} थी"
+                },
+                "ja": {
+                    "q": "映画{label}の費用はいくらですか？",  # ターミネーター  # ジョン
+                    "a": "映画の{label}費用は${cost_money}でした。"
                 }
             }
         ]
@@ -221,6 +281,18 @@ class questions:
                 "ru": {
                     "q": "Какова была касса фильма «{label}»?",
                     "a": "Фильм «{label}» был ${box_office}."
+                },
+                "ko": {
+                    "q": "영화 '{label}'의 흥행작은 무엇 이었습니까?",  # 터미네이터  # 존이
+                    "a": "영화 {label} 박스 오피스는 ${box_office}입니다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} का बॉक्स ऑफिस क्या था?",  # टर्मिनेटर  # जॉन
+                    "a": "फिल्म {label} बॉक्स ऑफिस ${box_office} थी"
+                },
+                "ja": {
+                    "q": "映画「{label}」の興行は何でしたか？",  # ターミネーター  # ジョン
+                    "a": "映画の{label}ボックスオフィスは${box_office}でした。"
                 }
             }
         ]
@@ -251,6 +323,18 @@ class questions:
                 "ru": {
                     "q": "Кто был сценаристом фильма {label}?",
                     "a": "Сценаристом в фильме {label} была {screenwriter}."
+                },
+                "ko": {
+                    "q": "영화 {label}의 시나리오 작가는 누구였습니까?",  # 터미네이터  # 존이
+                    "a": "영화 {label}의 시나리오 작가는 {screenwriter}었다."
+                },
+                "hi": {
+                    "q": "फिल्म {label} का पटकथा लेखक कौन था?",  # टर्मिनेटर  # जॉन
+                    "a": "फिल्म {label} में पटकथा लेखक {screenwriter} थे।"
+                },
+                "ja": {
+                    "q": "映画{label}の脚本家は誰ですか？",  # ターミネーター  # ジョン
+                    "a": "映画{label}の脚本家は{screenwriter}だった。"
                 }
             }
         ]
@@ -281,6 +365,18 @@ class questions:
                 "ru": {
                     "q": "Сколько лет {label}?",
                     "a": "{label} {augmented_age} лет."
+                },
+                "ko": {
+                    "q": "{label} 몇 살입니까?",  # 존이
+                    "a": "{label}은 {augmented_age} 세입니다."
+                },
+                "hi": {
+                    "q": "{label} कितना पुराना है?",  # जॉन
+                    "a": "{label} {augmented_age} साल का है।"
+                },
+                "ja": {
+                    "q": "{label}は何歳ですか？",  # ジョン
+                    "a": "{label}は{augmented_age}歳です。"
                 }
             }
         ]
@@ -311,6 +407,18 @@ class questions:
                 "ru": {
                     "q": "Когда будет день рождения {label}?",
                     "a": "День рождения {label} - {augmented_birthday}."
+                },
+                "ko": {
+                    "q": "{label} 생일은 언제입니까?",  # 존
+                    "a": "{label} 생일은 {augmented_birthday}입니다."
+                },
+                "hi": {
+                    "q": "{label} जन्मदिन कब है?{label}",  # जॉन
+                    "a": "{label} जन्मदिन {augmented_birthday} है"
+                },
+                "ja": {
+                    "q": "{label}の誕生日はいつですか？",  # ジョン
+                    "a": "{label}の誕生日は{augmented_birthday}です。"
                 }
             }
         ]
@@ -341,6 +449,18 @@ class questions:
                 "ru": {
                     "q": "Живет ли {label}?",
                     "a": "{label} - {augmented_is_alive}."
+                },
+                "ko": {
+                    "q": "{label}은 살아 있니?",  # 존
+                    "a": "{label}{augmented_is_alive}"
+                },
+                "hi": {
+                    "q": "क्या {label} जीवित है?",  # जॉन
+                    "a": "{label}{augmented_is_alive}"
+                },
+                "ja": {
+                    "q": "{label}は生きていますか？",  # ジョン
+                    "a": "{label}{augmented_is_alive}"
                 }
             }
         ]
@@ -371,6 +491,18 @@ class questions:
                 "ru": {
                     "q": "Какого цвета глаза {label}?",
                     "a": "Глаза {label} {eye_color}."
+                },
+                "ko": {
+                    "q": "{label}의 눈은 어떤 색입니까?",  # 존  # 녹색
+                    "a": "{label}의 눈은 {eye_color}입니다."
+                },
+                "hi": {
+                    "q": "क्या {label} की आंखें रंग हैं?{label}",  # जॉन  # हरा
+                    "a": "{label} की आँखें {eye_color} हैं"
+                },
+                "ja": {
+                    "q": "{label}の目はどんな色ですか？",  # ジョン  # 緑
+                    "a": "{label}の目は{eye_color}色です。"
                 }
             }
         ]
@@ -401,6 +533,18 @@ class questions:
                 "ru": {
                     "q": "Какого цвета волосы {label}?",
                     "a": "Волосы {label} - {hair_color}."
+                },
+                "ko": {
+                    "q": "{label}의 머리 색깔은 어떤 색입니까?",
+                    "a": "{label}의 머리카락은 {hair_color} 색이야."
+                },
+                "hi": {
+                    "q": "{label} के बाल क्या रंग हैं?",
+                    "a": "{label} के बाल {hair_color} हैं"
+                },
+                "ja": {
+                    "q": "{label}の髪はどんな色ですか？",
+                    "a": "{label}の髪は{hair_color}です。"
                 }
             }
         ]
@@ -431,6 +575,18 @@ class questions:
                 "ru": {
                     "q": "Сколько весит планета {label}?",
                     "a": "Планета {label} имеет массу {mass}."
+                },
+                "ko": {
+                    "q": "{label}의 무게는 얼마입니까?",  # 화성
+                    "a": "{label} 행성의 질량은 {mass}입니다."
+                },
+                "hi": {
+                    "q": "ग्रह {label} कितना वजन?",  # मंगल ग्रह
+                    "a": "ग्रह {label} का एक द्रव्यमान है {mass}।"
+                },
+                "ja": {
+                    "q": "どのくらいの重量の惑星{label}か？",  # 火星
+                    "a": "惑星の{label}の質量は{mass}です。"
                 }
             }
         ]
