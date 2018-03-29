@@ -369,8 +369,10 @@ class datawiki_reader:
             "P2233": "semi-major_axis",
             "P487": "unicode_character",
             "P4341": "synodic_period",
-            "P4501": "albedo"
-
+            "P4501": "albedo",
+            # Chemical
+            "P246": "element_symbol",
+            "P1086": "atomic_number",
         }
 
     def calculate_age(self, born):
@@ -464,8 +466,15 @@ class datawiki_reader:
         entity = self.get_entity_json(entity_id)
         if entity is None:
             return python_entity
+        lang_list = list(entity["labels"].keys())
         if lang in entity["labels"]:
             python_entity.set_property("label", entity["labels"][lang]["value"])
+        elif "en" in entity["labels"]:
+            python_entity.set_property("label", entity["labels"]["en"]["value"])
+        elif len(lang_list) > 0:
+            print(entity["labels"])
+            print(lang_list)
+            python_entity.set_property("label", entity["labels"][lang_list[0]]["value"])
         else:
             python_entity.set_property("label", None)
         if lang in entity["descriptions"]:

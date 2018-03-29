@@ -16,6 +16,9 @@ class questions:
                 "Q3504248",  # inner planet of the Solar System
                 "Q844911",  # superior planet
                 "Q3901935",  # inferior planet
+            ],
+            "chemical_element": [
+                "Q11344",  # Chemical element
             ]
         }
 
@@ -593,6 +596,90 @@ class questions:
         q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
         return q
 
+    def chemical_element_symbol(self, entity, lang="en"):
+        instance_of = self.instances_of["chemical_element"]
+        properties = ["element_symbol"]
+        questions = [
+            {
+                "es": {
+                    "q": "¿Cuál es el símbolo químico del {label}?",
+                    "a": "El símbolo químico del {label} es {element_symbol}."
+                },
+                "en": {
+                    "q": "What is the element symbol of {label}?",
+                    "a": "The element symbol of {label} is {element_symbol}."
+                },
+                "zh-hans": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                },
+                "pt": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                },
+                "ru": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                },
+                "ko": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                },
+                "hi": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                },
+                "ja": {
+                    "q": "{label}",
+                    "a": "{label}{element_symbol}"
+                }
+            }
+        ]
+        q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
+        return q
+
+    def chemical_atomic_number(self, entity, lang="en"):
+        instance_of = self.instances_of["chemical_element"]
+        properties = ["atomic_number"]
+        questions = [
+            {
+                "es": {
+                    "q": "¿Cuál es el número atómico del {label}?",
+                    "a": "El número atómico del {label} es {atomic_number}."
+                },
+                "en": {
+                    "q": "What is the atomic number of {label}?",
+                    "a": "The atomic number of {label} is {atomic_number}."
+                },
+                "zh-hans": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                },
+                "pt": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                },
+                "ru": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                },
+                "ko": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                },
+                "hi": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                },
+                "ja": {
+                    "q": "{label}",
+                    "a": "{label}{atomic_number}"
+                }
+            }
+        ]
+        q = self.simple_question_generator(entity, instance_of, properties, questions, lang)
+        return q
+
     # Generate
     def generate(self, entity, lang="en"):
         questions = [
@@ -609,6 +696,8 @@ class questions:
             self.human_is_alive(entity, lang),
             self.human_eye_color(entity, lang),
             self.human_hair_color(entity, lang),
+            self.chemical_atomic_number(entity, lang),
+            self.chemical_element_symbol(entity, lang)
         ]
         return questions
 
