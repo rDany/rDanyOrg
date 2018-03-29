@@ -416,7 +416,7 @@ class questions:
                     "a": "{label} 생일은 {augmented_birthday}입니다."
                 },
                 "hi": {
-                    "q": "{label} जन्मदिन कब है?{label}",  # जॉन
+                    "q": "{label} जन्मदिन कब है?",  # जॉन
                     "a": "{label} जन्मदिन {augmented_birthday} है"
                 },
                 "ja": {
@@ -500,7 +500,7 @@ class questions:
                     "a": "{label}의 눈은 {eye_color}입니다."
                 },
                 "hi": {
-                    "q": "क्या {label} की आंखें रंग हैं?{label}",  # जॉन  # हरा
+                    "q": "क्या {label} की आंखें रंग हैं?",  # जॉन  # हरा
                     "a": "{label} की आँखें {eye_color} हैं"
                 },
                 "ja": {
